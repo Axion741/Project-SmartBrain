@@ -21,7 +21,7 @@ class SignIn extends React.Component {
   onSubmitSignIn = () => {
       fetch('http://localhost:3000/signin', {
         method: 'POST',
-        headers: {'Content-Type:': 'application/json'},
+        headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({
           email: this.state.signInEmail,
           password: this.state.signInPassword
@@ -30,7 +30,7 @@ class SignIn extends React.Component {
       })
         .then(response => response.json())
         .then(data => {
-          if (data === 'success') {
+          if (data === 'Login Success') {
              this.props.onRouteChange('home');
           }
         })
