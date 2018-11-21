@@ -1,3 +1,8 @@
+The live version of this site is hosted on Heroku at https://axion-smartbrain.herokuapp.com/
+
+Feel free to head over and check it out!
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
